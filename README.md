@@ -65,8 +65,7 @@ define('BLOCK_TIME_MINUTES', 5);                 // Минут блокиров�
 
 // --- Пользователи ---
 define('USERS', serialize([
-    'admin' => password_hash('admin123', PASSWORD_DEFAULT),
-    'mcsweb' => password_hash('mamama', PASSWORD_DEFAULT)
+    'admin' => password_hash('admin123', PASSWORD_DEFAULT)
 ]));
 
 // --- Расширения файлов для включения в дамп ---
